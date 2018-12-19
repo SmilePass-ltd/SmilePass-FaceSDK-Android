@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/horizontal_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/camera_facing"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/medium_font" />
+
+            <Spinner
+                android:id="@+id/spinnerCameraFacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/basic_margin"
+                android:entries="@array/camera_facing" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/horizontal_margin"
+                android:text="@string/liveness_action"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/medium_font" />
+
+            <Spinner
+                android:id="@+id/spinnerLivenessAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/basic_margin"
+                android:entries="@array/liveness_action" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/horizontal_margin"
+                android:text="@string/strictness_mode"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/medium_font" />
+
+            <Spinner
+                android:id="@+id/spinnerStrictnessMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/basic_margin"
+                android:entries="@array/strictness_mode" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/horizontal_margin"
+                android:text="@string/show_instructions_popup"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/medium_font" />
+
+            <Spinner
+                android:id="@+id/spinnerInstructionsPopup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/basic_margin"
+                android:entries="@array/instructions_popup" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnLetsGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:text="@string/lets_go"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</LinearLayout>

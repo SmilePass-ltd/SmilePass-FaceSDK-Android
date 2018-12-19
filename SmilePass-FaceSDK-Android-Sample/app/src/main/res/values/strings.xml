@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Face Detector</string>
+    <string name="lets_go">Let\'s Go</string>
+    <string name="your_image">Your Selfie</string>
+    <string name="camera_facing">Camera Facing</string>
+    <string name="liveness_action">Liveness Action</string>
+    <string name="strictness_mode">Strictness Mode</string>
+    <string name="show_instructions_popup">Show Instructions Popup</string>
+    <string name="random">Random</string>
+    <string-array name="camera_facing">
+        <item>Front</item>
+        <item>Back</item>
+    </string-array>
+    <string-array name="liveness_action">
+        <item>None</item>
+        <item>Smile Only</item>
+        <item>Blink Only</item>
+        <item>Left Wink</item>
+        <item>Right Wink</item>
+        <item>Random</item>
+    </string-array>
+    <string-array name="strictness_mode">
+        <item>Lenient</item>
+        <item>Strict</item>
+    </string-array>
+    <string-array name="instructions_popup">
+        <item>True</item>
+        <item>False</item>
+    </string-array>
+</resources>
