@@ -6,8 +6,8 @@ android {
         applicationId "com.smilepass.facesdksample"
         minSdkVersion 22
         targetSdkVersion 28
-        versionCode 2
-        versionName "0.0.2"
+        versionCode 3
+        versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -27,7 +27,6 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:' + supportLibVersion
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation 'com.smilepass.mobilesdk:facesdk:0.0.6-alpha'
+    implementation 'com.smilepass.mobilesdk:facesdk:1.0.0'
 }
