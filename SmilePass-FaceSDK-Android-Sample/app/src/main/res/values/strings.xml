@@ -13,8 +13,8 @@
     </string-array>
     <string-array name="liveness_action">
         <item>None</item>
-        <item>Smile Only</item>
-        <item>Blink Only</item>
+        <item>Smile</item>
+        <item>Blink</item>
         <item>Left Wink</item>
         <item>Right Wink</item>
         <item>Random</item>
